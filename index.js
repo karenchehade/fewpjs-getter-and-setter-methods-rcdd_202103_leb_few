@@ -12,7 +12,7 @@ class Circle{
     return this.radius * this.radius * Math.PI;
   }
   set diameter(diameter) {
-   this.radius = Math.sqrt(diameter);
+   this.radius = diameter/2;
  }
  set circumference(circumference) {
   this.radius =Math.sqrt(diameter)/Math.PI;
