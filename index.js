@@ -6,7 +6,7 @@ class Circle{
     return this.radius * 2;
   }
   get circumference() {
-    return `${this.name} says ${this._phrase || 'squawk'}`;
+    return this.diameter * Math.PI;
   }
   get area() {
     return `${this.name} says ${this._phrase || 'squawk'}`;
