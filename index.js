@@ -11,14 +11,14 @@ class Circle{
   get area() {
     return this.radius * this.radius * Math.PI;
   }
-  set diameter() {
-   this._phrase = phrase;
+  set diameter(diameter) {
+   this.diameter = diameter;
  }
- set circumference() {
-  this._phrase = phrase;
+ set circumference(circumference) {
+  this.circumference =circumference;
 }
-set area() {
- this._phrase = phrase;
+set area(area) {
+ this.area = area;
 }
 
 }
