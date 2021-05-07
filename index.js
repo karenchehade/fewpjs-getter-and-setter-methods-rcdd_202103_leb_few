@@ -9,7 +9,7 @@ class Circle{
     return this.diameter * Math.PI;
   }
   get area() {
-    return `${this.name} says ${this._phrase || 'squawk'}`;
+    return this.radius * this.radius * Math.PI;
   }
   set diameter() {
    this._phrase = phrase;
