@@ -13,12 +13,12 @@ class Circle{
   }
   set diameter(diameter) {
    this.radius = diameter/2;
- }
- set circumference(circumference) {
-  this.radius =diameter*Math.PI/2;
-}
-set area(area) {
- this.area = area;
-}
+  }
+  set circumference(circumference) {
+    this.radius =diameter*Math.PI/2;
+  }
+  set area(area) {
+   this.radius = area;
+  }
 
 }
